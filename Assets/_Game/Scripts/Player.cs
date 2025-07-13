@@ -1,16 +1,19 @@
 using UnityEngine;
 
-public class Player : MonoBehaviour
+namespace _Game.Scripts
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public class Player : MonoBehaviour
     {
+        public Rigidbody2D
         
-    }
+        private void Start()
+        {
+        
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
+        private void Update()
+        {
         
+        }
     }
 }
